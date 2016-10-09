@@ -1,0 +1,25 @@
+MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+Subject: Password reset on 0.0.0.0:8000
+From: webmaster@localhost
+To: brian@oceanwavedata.com
+Date: Sun, 02 Oct 2016 20:53:59 -0000
+Message-ID: <20161002205359.16386.82096@ubuntu.ubuntu-domain>
+
+
+You're receiving this email because you requested a password reset for your user account at 0.0.0.0:8000.
+
+Please go to the following page and choose a new password:
+
+http://0.0.0.0:8000/accounts/reset/Mg/4ft-466452bb5a425b077813/
+
+Your username, in case you've forgotten: Brian
+
+Thanks for using our site!
+
+The 0.0.0.0:8000 team
+
+
+
+-------------------------------------------------------------------------------

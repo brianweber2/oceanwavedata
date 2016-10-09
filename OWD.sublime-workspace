@@ -1,0 +1,541 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"get_f",
+				"get_form_kwargs"
+			],
+			[
+				"Userp",
+				"UserProfileUpdateView\tclass"
+			],
+			[
+				"UserP",
+				"UserProfileUpdateForm\tclass"
+			],
+			[
+				"get",
+				"get_user_model\timport"
+			],
+			[
+				"UserPr",
+				"UserProfileUpdateView\tclass"
+			],
+			[
+				"User",
+				"UserUpdateForm\tclass"
+			],
+			[
+				"profile",
+				"profiledata\tstatement"
+			],
+			[
+				"render",
+				"render_to_response"
+			],
+			[
+				"UserUp",
+				"UserProfileUpdateView\tclass"
+			],
+			[
+				"field",
+				"fields_for_model\timport"
+			],
+			[
+				"succ",
+				"success_url"
+			],
+			[
+				"url",
+				"urlpatterns\tstatement"
+			],
+			[
+				"user",
+				"userprofile"
+			],
+			[
+				"pad",
+				"padding-top"
+			],
+			[
+				"col",
+				"color"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"login",
+				"login_required\timport"
+			],
+			[
+				"creat",
+				"create_user_profile\tfunction"
+			],
+			[
+				"Login",
+				"LoginRequiredMixin\timport"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"authe",
+				"authenticate"
+			],
+			[
+				"pass",
+				"password"
+			],
+			[
+				"pas",
+				"password"
+			],
+			[
+				"Pass",
+				"PasswordInput"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"last",
+				"last_name"
+			],
+			[
+				"first",
+				"first_name"
+			],
+			[
+				"uni",
+				"unique"
+			],
+			[
+				"Bas",
+				"BaseUserManager\timport"
+			],
+			[
+				"revers",
+				"reverse_lazy\timport"
+			],
+			[
+				"paddin",
+				"padding-left"
+			],
+			[
+				"paddi",
+				"padding-right"
+			],
+			[
+				"lo",
+				"logout_view\tfunction"
+			],
+			[
+				"Log",
+				"LogoutView\tclass"
+			],
+			[
+				"rev",
+				"reverse_lazy\timport"
+			],
+			[
+				"borderc",
+				"border-color"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"inl",
+				"inline"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"clean",
+				"cleaned_data\tstatement"
+			],
+			[
+				"help",
+				"help_text"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"ver",
+				"verify\tstatement"
+			],
+			[
+				"contact",
+				"contact_form\tstatement"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "owd/accounts/views.py",
+			"settings":
+			{
+				"buffer_size": 3385,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "owd/accounts/forms.py",
+			"settings":
+			{
+				"buffer_size": 1942,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "owd/accounts/models.py",
+			"settings":
+			{
+				"buffer_size": 2899,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"Anaconda: Disable linting on this file"
+			],
+			[
+				"disable",
+				"Anaconda: Disable linting on this file"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/brian/Desktop/OWD_website",
+		"/home/brian/Desktop/OWD_website/owd",
+		"/home/brian/Desktop/OWD_website/owd/accounts",
+		"/home/brian/Desktop/OWD_website/owd/accounts/templates",
+		"/home/brian/Desktop/OWD_website/owd/accounts/templates/accounts",
+		"/home/brian/Desktop/OWD_website/owd/assets",
+		"/home/brian/Desktop/OWD_website/owd/assets/media",
+		"/home/brian/Desktop/OWD_website/owd/templates/registration"
+	],
+	"file_history":
+	[
+		"/home/brian/Desktop/OWD_website/owd/accounts/templates/accounts/profile.html",
+		"/home/brian/Desktop/OWD_website/owd/accounts/templates/accounts/update_profile.html",
+		"/home/brian/Desktop/OWD_website/owd/accounts/admin.py",
+		"/home/brian/Desktop/OWD_website/owd/owd/views.py",
+		"/home/brian/Desktop/OWD_website/owd/accounts/urls.py",
+		"/home/brian/Desktop/OWD_website/owd/owd/settings.py",
+		"/home/brian/Desktop/OWD_website/owd/accounts/forms.py",
+		"/home/brian/Desktop/OWD_website/owd/accounts/models.py",
+		"/home/brian/Desktop/OWD_website/owd/owd/urls.py",
+		"/home/brian/Desktop/OWD_website/owd/accounts/static/accounts/css/signin.css",
+		"/home/brian/Desktop/OWD_website/owd/accounts/static/accounts/css/offcanvas.css",
+		"/home/brian/Desktop/OWD_website/owd/templates/base_1.html",
+		"/home/brian/Desktop/OWD_website/owd/accounts/views.py",
+		"/home/brian/Desktop/OWD_website/owd/assets/js/offcanvas.js",
+		"/home/brian/Desktop/OWD_website/owd/assets/js/tether.min.js",
+		"/home/brian/Desktop/OWD_website/owd/templates/home_1.html",
+		"/home/brian/Desktop/OWD_website/owd/templates/offcanvas_base.html",
+		"/home/brian/Desktop/OWD_website/owd/templates/footer.html",
+		"/home/brian/Desktop/OWD_website/owd/assets/css/offcanvas.css",
+		"/home/brian/Desktop/OWD_website/owd/templates/registration/profile.html",
+		"/home/brian/Desktop/OWD_website/owd/templates/registration/login.html",
+		"/home/brian/Desktop/OWD_website/owd/templates/registration/password_reset_form.html",
+		"/home/brian/Desktop/OWD_website/owd/accounts/templates/accounts/signup.html",
+		"/media/brian/Brian's External Hard Drive/Python/Orcaflex/Tensioner/tensionerModel as PID Controller.py",
+		"/home/brian/Desktop/OWD_website/owd/templates/contact.html",
+		"/home/brian/Desktop/OWD_website/owd/accounts/migrations/0001_initial.py",
+		"/home/brian/Downloads/django-authentication/Django Authentication/Final/msg/communities/templates/communities/community_detail.html",
+		"/home/brian/Desktop/OWD_website/owd/templates/projects.html",
+		"/home/brian/Desktop/OWD_website/owd/templates/forum.html",
+		"/home/brian/Desktop/OWD_website/owd/templates/blog.html",
+		"/home/brian/Desktop/OWD_website/owd/templates/about.html",
+		"/home/brian/Desktop/OWD_website/owd/templates/registration/password_reset_confirm.html",
+		"/home/brian/Desktop/OWD_website/owd/templates/registration/password_reset_complete.html",
+		"/home/brian/Desktop/OWD_website/owd/templates/registration/password_reset_done.html",
+		"/home/brian/Desktop/OWD_website/owd/assets/css/navbar.css",
+		"/home/brian/Desktop/OWD_website/owd/accounts/templates/accounts/login.html",
+		"/home/brian/Desktop/OWD_website/owd/templates/navbar.html",
+		"/home/brian/Desktop/OWD_website/owd/assets/js/ie10-viewport-bug-workaround.js",
+		"/home/brian/Desktop/OWD_website/owd/assets/css/signin.css",
+		"/home/brian/Desktop/OWD_website/owd/assets/css/ie10-viewport-bug-workaround.css",
+		"/home/brian/Desktop/OWD_website/owd/templates/base.html",
+		"/home/brian/Desktop/OWD_website/owd/templates/home.html",
+		"/home/brian/Desktop/Python/Django Forms/learning_site/courses/templates/courses/quiz_detail.html",
+		"/home/brian/.cache/.fr-7CfdXA/Django Forms/Final/learning_site/courses/templates/courses/layout.html",
+		"/home/brian/Desktop/OWD_website/owd/owd/forms.py",
+		"/home/brian/Desktop/OWD_website/owd/assets/css/contact.css",
+		"/home/brian/Desktop/OWD_website/owd/assets/css/contact_form.css",
+		"/home/brian/Desktop/Python/Django Forms/learning_site/learning_site/forms.py",
+		"/home/brian/Desktop/Python/Django Forms/learning_site/templates/suggestion_form.html",
+		"/home/brian/Desktop/Python/Django Forms/learning_site/learning_site/urls.py",
+		"/media/brian/Brian's External Hard Drive/Golden Ticket/Team Treehouse/Python/Customizing Django Templates/learning_site/learning_site/urls.py",
+		"/media/brian/Brian's External Hard Drive/Golden Ticket/Team Treehouse/Python/Django Basics/learning_site/courses/templates/courses/course_list.html",
+		"/media/brian/Brian's External Hard Drive/Golden Ticket/Team Treehouse/Python/Django Basics/learning_site/templates/home.html",
+		"/media/brian/Brian's External Hard Drive/Golden Ticket/Team Treehouse/Python/Django Basics/learning_site/templates/layout.html",
+		"/home/brian/Desktop/OWD_website/src/templates/base.html",
+		"/home/brian/Downloads/subplot_demo.py"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"periodNow",
+			"{\n",
+			"context"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "owd/accounts/views.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3385,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2117,
+								2117
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 8.0,
+						"translation.y": 891.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "owd/accounts/forms.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1942,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								348,
+								348
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "owd/accounts/models.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2899,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2726,
+								2726
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 827.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 37.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "OWD.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 159.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

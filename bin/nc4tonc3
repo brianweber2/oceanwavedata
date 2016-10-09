@@ -1,0 +1,10 @@
+#!/home/brian/Desktop/OWD_website/bin/python
+# EASY-INSTALL-ENTRY-SCRIPT: 'netCDF4==1.2.1','console_scripts','nc4tonc3'
+__requires__ = 'netCDF4==1.2.1'
+import sys
+from pkg_resources import load_entry_point
+
+if __name__ == '__main__':
+    sys.exit(
+        load_entry_point('netCDF4==1.2.1', 'console_scripts', 'nc4tonc3')()
+    )

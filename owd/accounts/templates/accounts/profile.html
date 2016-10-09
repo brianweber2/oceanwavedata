@@ -1,0 +1,210 @@
+{% extends "base_1.html" %}
+{% load static from staticfiles %}
+{% load bootstrap3 %}
+{% load countries %}
+
+{% block title %}OWD | Your Profile{% endblock %}
+
+{% block css %}
+<style type="text/css">
+
+	/*.box {
+		border-color: black;
+	}*/
+
+	.grid-25 {
+		padding: 0 15px;
+		text-align: left;
+		width: 30%;
+	}
+
+	.grid-75 {
+		padding: 0 15px;
+		text-align: left;
+		width: 70%;
+	}
+
+	.pull-xs-right {
+		text-align: right;
+	}
+
+	.list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover {
+    background-color: #337ab7;
+    border-color: #337ab7;
+	}
+
+	.buttons {
+		text-align: left;
+		padding: 15px;
+	}
+
+	.change-password {
+	    color: black;
+	    background-color: white;
+	    border-color: gray;
+	}
+
+	a.change-password:hover {
+		border-color: black;
+		background-color: white;
+		color: black;
+	}
+
+</style>
+{% endblock %}
+
+{% block custom_links %}
+<link rel="stylesheet" type="text/css" href="{% static 'css/offcanvas.css' %}">
+{% endblock %}
+
+{% block body_content %}
+<!-- If messages, print them out to the view. -->
+{% if messages %}
+	{% for message in messages %}
+	    <div class="alert alert-{{ message.tags }}">{{ message }}</div>
+	{% endfor %}
+{% endif %}
+
+<br>
+<div class="row row-offcanvas row-offcanvas-right">
+
+	<div class="col-xs-12 col-sm-9 box">
+		<p class="pull-xs-right visible-xs">
+            <button type="button" class="btn btn-primary btn-sm" data-toggle="offcanvas">Profile info</button>
+        </p>
+
+        <div class="row">
+			<div class="col-lg-6 col-sm-6 col-xs-12 grid-25">
+				<p><b>Your Photo</b></p>
+			</div>
+			<div class="col-lg-6 col-sm-6 col-xs-12 grid-75">
+				{% if user.userprofile.avatar %}
+				<img src="{{ user.userprofile.avatar.url }}" height="150" width="150">
+				{% else %}
+				<img src="{% static 'img/avatar_placeholder.jpg' %}" height="150" width="150">
+				{% endif %}
+			</div><!--/col-lg-6 col-md-6 col-sm-6 col-xs-12-->
+		</div><!--/row-->
+		<hr>
+		<div class="row">
+			<div class="col-lg-6 col-sm-6 col-xs-12 grid-25">
+				<p><b>Username</b></p>
+			</div>
+			<div class="col-lg-6 col-sm-6 col-xs-12 grid-75">
+				<p>{{ user.username }}</p>
+			</div><!--/col-lg-6 col-md-6 col-sm-6 col-xs-12-->
+		</div><!--/row-->
+		<hr>
+		<div class="row">
+			<div class="col-lg-6 col-sm-6 col-xs-12 grid-25">
+				<p><b>First Name</b></p>
+			</div>
+			<div class="col-lg-6 col-sm-6 col-xs-12 grid-75">
+				<p>{{ user.first_name }}</p>
+			</div><!--/col-lg-6 col-md-6 col-sm-6 col-xs-12-->
+		</div><!--/row-->
+		<hr>
+		<div class="row">
+			<div class="col-lg-6 col-sm-6 col-xs-12 grid-25">
+				<p><b>Last Name</b></p>
+			</div>
+			<div class="col-lg-6 col-sm-6 col-xs-12 grid-75">
+				<p>{{ user.last_name }}</p>
+			</div><!--/col-lg-6 col-md-6 col-sm-6 col-xs-12-->
+		</div><!--/row-->
+		<hr>
+		<div class="row">
+			<div class="col-lg-6 col-sm-6 col-xs-12 grid-25">
+				<p><b>Email Address</b></p>
+			</div>
+			<div class="col-lg-6 col-sm-6 col-xs-12 grid-75">
+				<p>{{ user.email }}</p>
+			</div><!--/col-lg-6 col-md-6 col-sm-6 col-xs-12-->
+		</div><!--/row-->
+		<hr>
+		<div class="row">
+			<div class="col-lg-6 col-sm-6 col-xs-12 grid-25">
+				<p><b>Password</b></p>
+			</div>
+			<div class="col-lg-6 col-sm-6 col-xs-12 grid-75">
+				<p>• • • • • • • •</p>
+			</div><!--/col-lg-6 col-md-6 col-sm-6 col-xs-12-->
+		</div><!--/row-->
+		<hr>
+		<div class="row">
+			<div class="col-lg-6 col-sm-6 col-xs-12 grid-25">
+				<p><b>About You</b></p>
+			</div>
+			<div class="col-lg-6 col-sm-6 col-xs-12 grid-75">
+				<p>{{ user.userprofile.bio }}</p>
+			</div><!--/col-lg-6 col-md-6 col-sm-6 col-xs-12-->
+		</div><!--/row-->
+		<hr>
+		<div class="row">
+			<div class="col-lg-6 col-sm-6 col-xs-12 grid-25">
+				<p><b>Company</b></p>
+			</div>
+			<div class="col-lg-6 col-sm-6 col-xs-12 grid-75">
+				<p>{{ user.userprofile.company }}</p>
+			</div><!--/col-lg-6 col-md-6 col-sm-6 col-xs-12-->
+		</div><!--/row-->
+		<hr>
+		<div class="row">
+			<div class="col-lg-6 col-sm-6 col-xs-12 grid-25">
+				<p><b>Job</b></p>
+			</div>
+			<div class="col-lg-6 col-sm-6 col-xs-12 grid-75">
+				<p>{{ user.userprofile.position }}</p>
+			</div><!--/col-lg-6 col-md-6 col-sm-6 col-xs-12-->
+		</div><!--/row-->
+		<hr>
+		<div class="row">
+			<div class="col-lg-6 col-sm-6 col-xs-12 grid-25">
+				<p><b>Billing Address</b></p>
+			</div>
+			<div class="col-lg-6 col-sm-6 col-xs-12 grid-75">
+				<p>{{ user.userprofile.billing_address|linebreaksbr }}</p>
+			</div><!--/col-lg-6 col-md-6 col-sm-6 col-xs-12-->
+		</div><!--/row-->
+		<hr>
+		<div class="row">
+			<div class="col-lg-6 col-sm-6 col-xs-12 grid-25">
+				<p><b>Country</b></p>
+			</div>
+			<div class="col-lg-6 col-sm-6 col-xs-12 grid-75">
+				{% get_country user.userprofile.country as country %}
+				<p>{{ country.name }}</p>
+			</div><!--/col-lg-6 col-md-6 col-sm-6 col-xs-12-->
+		</div><!--/row-->
+		<hr>
+		<div class="row">
+			<div class="col-lg-6 col-sm-6 col-xs-12 grid-25">
+				<p><b>Location</b></p>
+			</div>
+			<div class="col-lg-6 col-sm-6 col-xs-12 grid-75">
+				<p>{{ user.userprofile.location }}</p>
+			</div><!--/col-lg-6 col-md-6 col-sm-6 col-xs-12-->
+		</div><!--/row-->
+		<hr>
+		<div class="row buttons">
+			<a class="btn btn-primary" href="{% url 'accounts:update_profile' username=user.username %}" role="button">Edit Account</a>
+			<a class="btn btn-primary change-password" href="{% url 'password_reset' %}" role="button">Change Password</a>
+		</div>
+	</div><!--col-xs-12 col-sm-6-->
+
+	<div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar">
+		<div class="list-group">
+			<a href="{% url 'accounts:profile' user.username %}" class="list-group-item active">Profile Info</a>
+            <a href="#" class="list-group-item">Enrollment</a>
+            <a href="#" class="list-group-item">Billing History</a>
+            <a href="#" class="list-group-item">Email Notifications</a>
+            <a href="#" class="list-group-item">Privacy Settings</a>
+		</div>
+	</div><!--/.sidebar-offcanvas-->
+</div><!--/row-->
+{% endblock %}
+
+{% block java_script %}
+	<script src="{% static 'js/tether.min.js' %}"></script>
+	<script src="{% static 'js/offcanvas.js' %}"></script>
+{% endblock %}

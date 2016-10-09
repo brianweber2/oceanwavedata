@@ -1,0 +1,18 @@
+.form-control {
+	width: 25%;
+	height: 50px;
+	font-size: 20px;
+}
+
+h2, h3 {
+	text-align: center;
+}
+
+p {
+	text-align: center;
+}
+
+input, textarea {
+	width: 60%;
+}
+

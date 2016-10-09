@@ -1,0 +1,138 @@
+{% extends "base.html" %}
+{% load static from staticfiles %}
+
+{% block title %}OWD | Ocean Wave Data{% endblock %}
+
+{% block css %}
+<style>
+
+    body {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    .vertical-center {
+        min-height: 50%;
+        min-height: 50vh;
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+
+    .jumbotron {
+        background: url({% static 'img/pipeline.jpg' %});
+        width: 100%;
+        background-repeat: no-repeat;
+        background-position: center center;
+
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+
+
+
+    .img-responsive {
+        display: block;
+        max-width: 100%;
+        height: auto;
+        margin: auto;
+    }
+    
+    ul, li {
+    margin:0;
+    padding:0;
+    text-align: center;
+    }
+
+    </style>
+{% endblock %}
+
+{% block content %}
+{% include "navbar.html" %}
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron vertical-center">
+      <div class="container">
+        <h1>OCEAN WAVE DATA</h1>
+        <p>Interactive Data Analysis and Forecasting for Waves</p>
+        <!-- <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p> -->
+
+      </div>
+    </div>
+
+    <!-- Second sections -->
+    <div class="container">
+    	<div class="row">
+    		<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+    			<!--place icon here-->
+    			<h1 align="center">ANALYTICAL TOOLS</h1>
+    				<p>We are working on providing an online web platform that lets you better interpret oceanographic and meteorological data with clean and simple visualizations. With customized analytical tools that you can access anywhere, we present a convenient way to get historical and real time data.</p>
+    		</div>
+    		<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+    			<!--place icon here-->
+    			<h1 align="center">MODELING AND FORECASTING</h1>
+    				<p>Apply models that best represent your region and application. Interact with different data sources and time periods to gain a higher level of confidence with the forecasting models. Increasing your certainty in the marine weather forecast can help you in planning and saving costs on your next surf trip, fishing trip, or engineering design application.</p>
+    		</div>
+
+    	</div>
+    </div>
+
+    <hr>
+
+    <h1 align="center">APPLICATIONS</h1>
+
+    <div class="container">
+    	<br>
+    	
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+          <!-- image here -->
+          <img src="{% static 'img/shipping.jpeg' %}" class='img-responsive' />
+          <h2 align="center">Shipping</h2>
+          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+        	<!-- image here -->
+        	<img src="{% static 'img/oilandgas.jpeg' %}" class='img-responsive' />
+          <h2 align="center">Oil and Gas</h2>
+          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+       </div>
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+        	<!-- image here -->
+        	<img src="{% static 'img/surfforecast.jpeg' %}" class='img-responsive' />
+          <h2 align="center">Surf Forecast</h2>
+          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        </div>
+      </div>
+      <div class="row">      
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+          <!-- image here -->
+          <img src="{% static 'img/marineweather.jpeg' %}" class='img-responsive' />
+          <h2 align="center">Marine Weather</h2>
+          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+        	<!-- image here -->
+        	<img src="{% static 'img/coastal.jpeg' %}" class='img-responsive' />
+          <h2 align="center">Coastal</h2>
+          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+       </div>
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+        	<!-- image here -->
+        	<img src="{% static 'img/environmental.jpeg' %}" class='img-responsive' />
+          <h2 align="center">Environmental</h2>
+          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        </div>
+      </div>
+    </div>
+
+{% endblock %}

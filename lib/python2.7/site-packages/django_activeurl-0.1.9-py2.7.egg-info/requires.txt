@@ -1,0 +1,4 @@
+django
+lxml
+django-classy-tags
+django_appconf
