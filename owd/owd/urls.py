@@ -28,8 +28,9 @@ urlpatterns = [
 	url(r'^blog/$', views.blog, name='blog'),
 	url(r'^forum/$', views.forum, name='forum'),
 	url(r'^contact/$', views.contact_view, name='contact'),
+    url(r'^account/$', views.login_redirect, name='login_redirect'),
+    url(r'^accounts/', include("allauth.urls")),
     url(r'^accounts/', include("accounts.urls", namespace="accounts")),
-    url(r'^accounts/', include("django.contrib.auth.urls")),
 ]
 
 if settings.DEBUG is True:

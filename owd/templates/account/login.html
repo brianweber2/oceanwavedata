@@ -84,7 +84,7 @@
 
     <div class="navigation">
         <div class="button-pane">
-            <a class="btn btn-primary" href="{% url 'accounts:signup' %}" role="button">Don't have an account?</a>
+            <a class="btn btn-primary" href="{{ signup_url }}" role="button">Don't have an account?</a>
         </div>
     </div>
     <hr>
@@ -102,7 +102,7 @@
         {% bootstrap_form form %}
         <input type="submit" value="Sign in" class="btn btn-lg btn-primary btn-block">
         <hr>
-        <p><a href="{% url 'password_reset' %}">Forgot password or username?</a></p>
+        <p><a href="{% url 'account_reset_password' %}">Forgot password or username?</a></p>
         <p><a href="{% url 'home' %}">Return to OWD Homepage</a></p>
       </form>
 

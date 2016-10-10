@@ -1,4 +1,4 @@
-{% extends "base_1.html" %}
+{% extends "base.html" %}
 {% load static from staticfiles %}
 {% load bootstrap3 %}
 {% load countries %}
@@ -188,7 +188,7 @@
 		<hr>
 		<div class="row buttons">
 			<a class="btn btn-primary" href="{% url 'accounts:update_profile' username=user.username %}" role="button">Edit Account</a>
-			<a class="btn btn-primary change-password" href="{% url 'password_reset' %}" role="button">Change Password</a>
+			<a class="btn btn-primary change-password" href="{% url 'account_reset_password' %}" role="button">Change Password</a>
 		</div>
 	</div><!--col-xs-12 col-sm-6-->
 

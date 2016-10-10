@@ -15,7 +15,7 @@ from smartfields import fields
 
 
 class UserManager(BaseUserManager):
-	def create_user(self, first_name, last_name, email, username,
+	def create_user(self, first_name, last_name, email, username=None,
 					display_name=None, password=None):
 		if not first_name:
 			raise ValueError("Please provide your first name.")
@@ -23,6 +23,8 @@ class UserManager(BaseUserManager):
 			raise ValueError("Please provide your last name.")
 		if not email:
 			raise ValueError("Users must have an email address.")
+		if not username:
+			username = email.split('@')[0]
 		if not display_name:
 			display_name = first_name.capitalize()
 

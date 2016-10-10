@@ -179,10 +179,10 @@
             <ul class="nav navbar-nav navbar-right">
               {% if user.is_authenticated %}
               <li><a href="{% url 'accounts:profile' user.username %}">Logged in as <b>{{ user.username }}</b></a></li>
-              <li><a href="{% url "logout" %}"><b>Logout</b></a></li>
+              <li><a href="#"><b>Logout</b></a></li>
               {% else %}
-              <li><a href="{% url "login" %}"><b>Login</b></a></li>
-              <li><a href="{% url "accounts:signup" %}"><b>Sign Up</b></a></li>
+              <li><a href="{{ login_url }}"><b>Login</b></a></li>
+              <li><a href="{{ signup_url }}"><b>Sign Up</b></a></li>
               {% endif %}
             </ul>
           </div><!--/.nav-collapse -->

@@ -187,32 +187,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "owd/accounts/views.py",
-			"settings":
-			{
-				"buffer_size": 3385,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "owd/accounts/forms.py",
-			"settings":
-			{
-				"buffer_size": 1942,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "owd/accounts/models.py",
-			"settings":
-			{
-				"buffer_size": 2899,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -261,31 +235,47 @@
 	[
 		"/home/brian/Desktop/OWD_website",
 		"/home/brian/Desktop/OWD_website/owd",
-		"/home/brian/Desktop/OWD_website/owd/accounts",
 		"/home/brian/Desktop/OWD_website/owd/accounts/templates",
 		"/home/brian/Desktop/OWD_website/owd/accounts/templates/accounts",
-		"/home/brian/Desktop/OWD_website/owd/assets",
-		"/home/brian/Desktop/OWD_website/owd/assets/media",
-		"/home/brian/Desktop/OWD_website/owd/templates/registration"
+		"/home/brian/Desktop/OWD_website/owd/emails",
+		"/home/brian/Desktop/OWD_website/owd/templates/account"
 	],
 	"file_history":
 	[
-		"/home/brian/Desktop/OWD_website/owd/accounts/templates/accounts/profile.html",
-		"/home/brian/Desktop/OWD_website/owd/accounts/templates/accounts/update_profile.html",
-		"/home/brian/Desktop/OWD_website/owd/accounts/admin.py",
+		"/home/brian/Desktop/OWD_website/owd/templates/account/login.html",
+		"/home/brian/Desktop/OWD_website/owd/templates/account/verification_sent.html",
+		"/home/brian/Desktop/OWD_website/owd/templates/account/confirm_email.html",
+		"/home/brian/Desktop/OWD_website/owd/owd/settings.py",
+		"/home/brian/Desktop/OWD_website/owd/templates/account/password_reset_from_key_done.html",
+		"/home/brian/Desktop/OWD_website/owd/templates/account/password_reset_from_key.html",
+		"/home/brian/Desktop/OWD_website/owd/templates/account/password_reset.html",
+		"/home/brian/Desktop/OWD_website/owd/templates/account/password_reset_done.html",
+		"/home/brian/Desktop/OWD_website/owd/templates/account/password_change.html",
+		"/home/brian/Desktop/OWD_website/owd/templates/account/logout.html",
+		"/home/brian/Desktop/OWD_website/owd/templates/base.html",
+		"/home/brian/Desktop/OWD_website/owd/owd/urls.py",
 		"/home/brian/Desktop/OWD_website/owd/owd/views.py",
 		"/home/brian/Desktop/OWD_website/owd/accounts/urls.py",
-		"/home/brian/Desktop/OWD_website/owd/owd/settings.py",
-		"/home/brian/Desktop/OWD_website/owd/accounts/forms.py",
+		"/home/brian/Desktop/OWD_website/owd/accounts/views.py",
+		"/home/brian/Desktop/OWD_website/owd/accounts/templates/accounts/profile.html",
+		"/home/brian/Desktop/OWD_website/owd/templates/home.html",
+		"/home/brian/Desktop/OWD_website/owd/templates/account/base.html",
+		"/home/brian/Desktop/OWD_website/owd/templates/account/signup.html",
 		"/home/brian/Desktop/OWD_website/owd/accounts/models.py",
-		"/home/brian/Desktop/OWD_website/owd/owd/urls.py",
+		"/home/brian/Desktop/OWD_website/owd/accounts/templates/accounts/update_profile.html",
+		"/home/brian/Desktop/OWD_website/owd/templates/projects.html",
+		"/home/brian/Desktop/OWD_website/owd/templates/forum.html",
+		"/home/brian/Desktop/OWD_website/owd/templates/contact.html",
+		"/home/brian/Desktop/OWD_website/owd/templates/blog.html",
+		"/home/brian/Desktop/OWD_website/owd/templates/about.html",
+		"/home/brian/Desktop/OWD_website/owd/accounts/forms.py",
+		"/home/brian/Desktop/OWD_website/owd/templates/home_1.html",
+		"/home/brian/Desktop/OWD_website/owd/accounts/admin.py",
 		"/home/brian/Desktop/OWD_website/owd/accounts/static/accounts/css/signin.css",
 		"/home/brian/Desktop/OWD_website/owd/accounts/static/accounts/css/offcanvas.css",
 		"/home/brian/Desktop/OWD_website/owd/templates/base_1.html",
-		"/home/brian/Desktop/OWD_website/owd/accounts/views.py",
 		"/home/brian/Desktop/OWD_website/owd/assets/js/offcanvas.js",
 		"/home/brian/Desktop/OWD_website/owd/assets/js/tether.min.js",
-		"/home/brian/Desktop/OWD_website/owd/templates/home_1.html",
 		"/home/brian/Desktop/OWD_website/owd/templates/offcanvas_base.html",
 		"/home/brian/Desktop/OWD_website/owd/templates/footer.html",
 		"/home/brian/Desktop/OWD_website/owd/assets/css/offcanvas.css",
@@ -294,13 +284,8 @@
 		"/home/brian/Desktop/OWD_website/owd/templates/registration/password_reset_form.html",
 		"/home/brian/Desktop/OWD_website/owd/accounts/templates/accounts/signup.html",
 		"/media/brian/Brian's External Hard Drive/Python/Orcaflex/Tensioner/tensionerModel as PID Controller.py",
-		"/home/brian/Desktop/OWD_website/owd/templates/contact.html",
 		"/home/brian/Desktop/OWD_website/owd/accounts/migrations/0001_initial.py",
 		"/home/brian/Downloads/django-authentication/Django Authentication/Final/msg/communities/templates/communities/community_detail.html",
-		"/home/brian/Desktop/OWD_website/owd/templates/projects.html",
-		"/home/brian/Desktop/OWD_website/owd/templates/forum.html",
-		"/home/brian/Desktop/OWD_website/owd/templates/blog.html",
-		"/home/brian/Desktop/OWD_website/owd/templates/about.html",
 		"/home/brian/Desktop/OWD_website/owd/templates/registration/password_reset_confirm.html",
 		"/home/brian/Desktop/OWD_website/owd/templates/registration/password_reset_complete.html",
 		"/home/brian/Desktop/OWD_website/owd/templates/registration/password_reset_done.html",
@@ -310,8 +295,6 @@
 		"/home/brian/Desktop/OWD_website/owd/assets/js/ie10-viewport-bug-workaround.js",
 		"/home/brian/Desktop/OWD_website/owd/assets/css/signin.css",
 		"/home/brian/Desktop/OWD_website/owd/assets/css/ie10-viewport-bug-workaround.css",
-		"/home/brian/Desktop/OWD_website/owd/templates/base.html",
-		"/home/brian/Desktop/OWD_website/owd/templates/home.html",
 		"/home/brian/Desktop/Python/Django Forms/learning_site/courses/templates/courses/quiz_detail.html",
 		"/home/brian/.cache/.fr-7CfdXA/Django Forms/Final/learning_site/courses/templates/courses/layout.html",
 		"/home/brian/Desktop/OWD_website/owd/owd/forms.py",
@@ -329,7 +312,7 @@
 	],
 	"find":
 	{
-		"height": 35.0
+		"height": 44.0
 	},
 	"find_in_files":
 	{
@@ -343,6 +326,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"sorl",
 			"periodNow",
 			"{\n",
 			"context"
@@ -363,96 +347,8 @@
 	"groups":
 	[
 		{
-			"selected": 1,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "owd/accounts/views.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3385,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2117,
-								2117
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 8.0,
-						"translation.y": 891.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "owd/accounts/forms.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1942,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								348,
-								348
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "owd/accounts/models.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2899,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2726,
-								2726
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 827.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -533,7 +429,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 159.0,
+	"side_bar_width": 304.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

@@ -38,12 +38,19 @@ INSTALLED_APPS = (
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'django_activeurl',
+    'django.contrib.sites',
+    'allauth',
+    'allauth.account',
+    'allauth.socialaccount',
     'smartfields',
     'django_countries',
     'widget_tweaks',
     'bootstrap3',
     'accounts',
 )
+
+# Ensure the SITE_ID is defined 
+SITE_ID = 1
 
 MIDDLEWARE_CLASSES = (
     'django.contrib.sessions.middleware.SessionMiddleware',
@@ -75,6 +82,14 @@ TEMPLATES = [
         },
     },
 ]
+
+# Add the 'allauth' backend to AUTHENTICATION_BACKEND and do not remove ModelBackend
+AUTHENTICATION_BACKENDS = (
+    # Needed to login by username in Django admin and to ensure compatibility with other packages
+    'django.contrib.auth.backends.ModelBackend',
+    # 'allauth' specific authentication methods
+    'allauth.account.auth_backends.AuthenticationBackend',
+)
 
 WSGI_APPLICATION = 'owd.wsgi.application'
 
@@ -122,7 +137,18 @@ MEDIA_URL = '/media/'
 EMAIL_BACKEND = 'django.core.mail.backends.filebased.EmailBackend'
 EMAIL_FILE_PATH = os.path.join(BASE_DIR, 'emails')
 
-LOGIN_REDIRECT_URL = "home"
+LOGIN_REDIRECT_URL = "login_redirect"
 
 AUTH_USER_MODEL = "accounts.User"
 AUTH_PROFILE_MODULE = "accounts.UserProfile"
+
+# Custom allauth settings
+# Use email as the primary identifier
+ACCOUNT_AUTHENTICATION_METHOD = 'email' 
+ACCOUNT_EMAIL_REQUIRED = True
+# Make email verification mandatory to avoid junk email accounts
+ACCOUNT_EMAIL_VERIFICATION = 'mandatory'
+ACCOUNT_CONFIRM_EMAIL_ON_GET = True
+# Eliminate need to provide username, as it's a very old practice
+ACCOUNT_USERNAME_REQUIRED = False
+ACCOUNT_LOGOUT_REDIRECT_URL = "account_login"

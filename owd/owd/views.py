@@ -1,3 +1,4 @@
+from django.contrib.auth.decorators import login_required
 from django.shortcuts import render
 from django.http import HttpResponseRedirect
 from django.conf import settings
@@ -15,7 +16,7 @@ from . import forms
 
 
 class Home(TemplateView):
-	template_name = "home_1.html"
+	template_name = "home.html"
 
 def about(request):
 	context = {}
@@ -53,3 +54,8 @@ def contact_view(request):
 	context = {'contact_form': contact_form}
 	template = "contact.html"
 	return render(request, template, context)
+
+@login_required
+def login_redirect(request):
+	return HttpResponseRedirect(reverse("accounts:profile", 
+					kwargs={'username': request.user.username}))

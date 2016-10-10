@@ -14,31 +14,31 @@ from . import models
 
 User = get_user_model()
 
-class LoginView(generic.FormView):
-	form_class = AuthenticationForm
-	success_url = reverse_lazy('home')
-	template_name = "accounts/login.html"
+# class LoginView(generic.FormView):
+# 	form_class = AuthenticationForm
+# 	success_url = reverse_lazy('home')
+# 	template_name = "accounts/login.html"
 
-	def get_form(self, form_class=None):
-		if form_class is None:
-			form_class = self.get_form_class()
-		return form_class(self.request, **self.get_form_kwargs())
+# 	def get_form(self, form_class=None):
+# 		if form_class is None:
+# 			form_class = self.get_form_class()
+# 		return form_class(self.request, **self.get_form_kwargs())
 
-	def form_valid(self, form):
-		login(self.request, form.get_user())
-		return super().form_valid(form)
-
-
-def logout_view(request):
-	logout(request)
-	return HttpResponseRedirect(reverse('home'))
+# 	def form_valid(self, form):
+# 		login(self.request, form.get_user())
+# 		return super().form_valid(form)
 
 
-class SignUpView(SuccessMessageMixin, generic.CreateView):
-	form_class = forms.UserCreateForm
-	success_url = reverse_lazy("login")
-	template_name = "accounts/signup.html"
-	success_message = "Your profile has been successfully created. Please log into your account."
+# def logout_view(request):
+# 	logout(request)
+# 	return HttpResponseRedirect(reverse('home'))
+
+
+# class SignUpView(SuccessMessageMixin, generic.CreateView):
+# 	form_class = forms.UserCreateForm
+# 	success_url = reverse_lazy("login")
+# 	template_name = "accounts/signup.html"
+# 	success_message = "Your profile has been successfully created. Please log into your account."
 
 
 class UserProfileView(LoginRequiredMixin, generic.DetailView):

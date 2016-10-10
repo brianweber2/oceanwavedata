@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+{% load static from staticfiles %}
+
+{% load i18n %}
+
+{% block title %}OWD | Verify Your Email Address{% endblock %}
+
+{% block css %}
+<style type="text/css">
+	p {
+		padding-left: 20%;
+		padding-right: 20%;
+	}
+</style>
+{% endblock %}
+
+{% block body_content %}
+<!-- If messages, print them out to the view. -->
+{% if messages %}
+{% for message in messages %}
+    <div class="alert alert-{{ message.tags }}">{{ message }}</div>
+{% endfor %}
+{% endif %}
+
+<div class="container">
+	<h1>Verify Your Email Address</h1>
+	<p>We have sent an e-mail to you for verification. Follow the link provided to finalize the signup process. Please contact us if you do not receive it within a few minutes.</p>
+</div>
+
+{% endblock %}
