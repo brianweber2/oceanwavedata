@@ -46,6 +46,7 @@ INSTALLED_APPS = (
     'django_countries',
     'widget_tweaks',
     'bootstrap3',
+    'debug_toolbar',
     'accounts',
 )
 
@@ -61,6 +62,7 @@ MIDDLEWARE_CLASSES = (
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'django.middleware.security.SecurityMiddleware',
+    'debug_toolbar.middleware.DebugToolbarMiddleware',
 )
 
 ROOT_URLCONF = 'owd.urls'
@@ -152,3 +154,6 @@ ACCOUNT_CONFIRM_EMAIL_ON_GET = True
 # Eliminate need to provide username, as it's a very old practice
 ACCOUNT_USERNAME_REQUIRED = False
 ACCOUNT_LOGOUT_REDIRECT_URL = "account_login"
+
+# Django Debug Toolbar
+INTERNAL_IPS = ('127.0.0.1',)

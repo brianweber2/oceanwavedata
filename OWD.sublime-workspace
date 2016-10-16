@@ -235,25 +235,22 @@
 	[
 		"/home/brian/Desktop/OWD_website",
 		"/home/brian/Desktop/OWD_website/owd",
-		"/home/brian/Desktop/OWD_website/owd/accounts/templates",
-		"/home/brian/Desktop/OWD_website/owd/accounts/templates/accounts",
-		"/home/brian/Desktop/OWD_website/owd/emails",
-		"/home/brian/Desktop/OWD_website/owd/templates/account"
+		"/home/brian/Desktop/OWD_website/owd/owd"
 	],
 	"file_history":
 	[
+		"/home/brian/Desktop/OWD_website/owd/owd/settings.py",
+		"/home/brian/Desktop/OWD_website/owd/owd/urls.py",
+		"/home/brian/Desktop/OWD_website/owd/templates/account/password_reset_done.html",
+		"/home/brian/Desktop/OWD_website/owd/templates/account/password_reset_from_key_done.html",
 		"/home/brian/Desktop/OWD_website/owd/templates/account/login.html",
 		"/home/brian/Desktop/OWD_website/owd/templates/account/verification_sent.html",
 		"/home/brian/Desktop/OWD_website/owd/templates/account/confirm_email.html",
-		"/home/brian/Desktop/OWD_website/owd/owd/settings.py",
-		"/home/brian/Desktop/OWD_website/owd/templates/account/password_reset_from_key_done.html",
 		"/home/brian/Desktop/OWD_website/owd/templates/account/password_reset_from_key.html",
 		"/home/brian/Desktop/OWD_website/owd/templates/account/password_reset.html",
-		"/home/brian/Desktop/OWD_website/owd/templates/account/password_reset_done.html",
 		"/home/brian/Desktop/OWD_website/owd/templates/account/password_change.html",
 		"/home/brian/Desktop/OWD_website/owd/templates/account/logout.html",
 		"/home/brian/Desktop/OWD_website/owd/templates/base.html",
-		"/home/brian/Desktop/OWD_website/owd/owd/urls.py",
 		"/home/brian/Desktop/OWD_website/owd/owd/views.py",
 		"/home/brian/Desktop/OWD_website/owd/accounts/urls.py",
 		"/home/brian/Desktop/OWD_website/owd/accounts/views.py",
@@ -429,7 +426,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 304.0,
+	"side_bar_width": 185.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
